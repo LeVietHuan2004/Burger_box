@@ -28,7 +28,7 @@ npm run iota-deploy
 npm run dev
 ```
 ## 📁Contract Address
-Package_Testnet_id: 0x4394a3d3d1c61b4be61d844edfc7240ee4c34a213cf3fdab5fc1af628362c216
+link=https://explorer.iota.org/object/0x4394a3d3d1c61b4be61d844edfc7240ee4c34a213cf3fdab5fc1af628362c216?network=testnet
 
 Open [http://localhost:3000](http://localhost:3000) and connect your IOTA wallet to start playing!
 
