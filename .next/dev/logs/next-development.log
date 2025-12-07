@@ -1,0 +1,699 @@
+[00:00:02.333] Server  LOG      ✓ Ready in 1778ms
+[00:00:12.595] Server  LOG      ○ Compiling / ...
+[00:00:21.706] Browser WARN    Dialog is changing from uncontrolled to controlled. Components should not switch from controlled to uncontrolled (or vice versa). Decide between using a controlled or uncontrolled value for the lifetime of the component.
+[00:05:11.193] Browser WARN    Dialog is changing from uncontrolled to controlled. Components should not switch from controlled to uncontrolled (or vice versa). Decide between using a controlled or uncontrolled value for the lifetime of the component.
+[00:05:55.350] Browser ERROR   Received NaN for the `%s` attribute. If this is expected, cast the value to a string. children
+[00:14:40.411] Server  LOG      ✓ Compiled in 683ms
+[00:15:49.148] Browser ERROR   Received NaN for the `%s` attribute. If this is expected, cast the value to a string. children
+[00:19:12.178] Server  LOG      ✓ Compiled in 367ms
+[00:28:34.600] Server  LOG      ✓ Compiled in 396ms
+[00:28:40.562] Server  LOG      ✓ Compiled in 93ms
+[00:30:41.577] Server  LOG      ✓ Compiled in 506ms
+[00:30:48.521] Server  LOG      ✓ Compiled in 95ms
+[00:30:52.803] Server  LOG      ✓ Compiled in 109ms
+[00:33:05.349] Server  LOG      ✓ Compiled in 403ms
+[00:33:58.273] Server  LOG      ✓ Compiled in 69ms
+[00:58:10.733] Server  LOG      ✓ Compiled in 758ms
+[01:03:45.449] Server  LOG      ✓ Compiled in 416ms
+[01:05:08.089] Server  LOG      ✓ Compiled in 282ms
+[01:08:11.260] Server  LOG      ✓ Compiled in 331ms
+[01:08:31.311] Server  LOG      ✓ Compiled in 123ms
+[01:13:54.047] Server  LOG      ✓ Compiled in 302ms
+[01:17:29.174] Server  LOG      ✓ Compiled in 1091ms
+[01:17:31.277] Browser ERROR   uncaughtError: Error: Element type is invalid: expected a string (for built-in components) or a class/function (for composite components) but got: object. You likely forgot to export your component from the file it's defined in, or you might have mixed up default and named imports.
+
+Check the render method of `Home`.
+[01:17:31.644] Server  LOG      ✓ Compiled in 1329ms
+[01:17:34.148] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[01:18:09.889] Browser ERROR   Received NaN for the `%s` attribute. If this is expected, cast the value to a string. children
+[01:20:39.505] Server  LOG      ✓ Compiled in 498ms
+[01:32:12.328] Server  LOG      ✓ Compiled in 1953ms
+[01:32:12.471] Server  WARN     ⚠ Fast Refresh had to perform a full reload when ./components/sample.tsx changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+[01:47:07.809] Server  LOG      ✓ Compiled in 475ms
+[01:48:49.621] Server  LOG      ✓ Compiled in 334ms
+[01:50:53.193] Server  LOG      ✓ Compiled in 414ms
+[01:50:53.308] Server  LOG      ✓ Compiled in 103ms
+[01:50:53.479] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[01:50:53.480] Browser ERROR   uncaughtError: ReferenceError: pizzaBoxId is not defined
+[01:50:54.258] Server  ERROR   D:\pizza_box\.next\dev\server\chunks\ssr\_08864426._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[01:50:54.263] Server  ERROR    ⨯ ReferenceError: pizzaBoxId is not defined
+[01:50:54.293] Server  LOG      ✓ Compiled in 440ms
+[01:50:54.320] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[01:50:56.432] Browser ERROR   uncaughtError: ReferenceError: pizzaBoxId is not defined
+[01:52:25.599] Server  LOG      ✓ Compiled in 318ms
+[01:52:25.616] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[01:52:26.656] Server  ERROR   D:\pizza_box\.next\dev\server\chunks\ssr\_08864426._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[01:52:26.659] Server  ERROR    ⨯ ReferenceError: cookPizza is not defined
+[01:52:28.437] Browser ERROR   uncaughtError: ReferenceError: cookPizza is not defined
+[01:53:13.523] Server  LOG      ✓ Compiled in 338ms
+[01:53:13.539] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[01:53:14.314] Server  ERROR   D:\pizza_box\.next\dev\server\chunks\ssr\_08864426._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[01:53:14.317] Server  ERROR    ⨯ ReferenceError: cookPizza is not defined
+[01:53:14.350] Server  LOG      ✓ Compiled in 89ms
+[01:53:14.360] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[01:53:16.434] Browser ERROR   uncaughtError: ReferenceError: cookPizza is not defined
+[01:54:03.379] Server  LOG      ✓ Compiled in 397ms
+[01:54:03.384] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[01:54:06.427] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+%s%s https://react.dev/link/hydration-mismatch 
+
+  ...
+    <HotReload globalError={[...]} webSocket={WebSocket} staticIndicatorState={{pathname:null, ...}}>
+      <AppDevOverlayErrorBoundary globalError={[...]}>
+        <ReplaySsrOnlyErrors>
+        <DevRootHTTPAccessFallbackBoundary>
+          <HTTPAccessFallbackBoundary notFound={<NotAllowedRootHTTPFallbackError>}>
+            <HTTPAccessFallbackErrorBoundary pathname="/" notFound={<NotAllowedRootHTTPFallbackError>} ...>
+              <RedirectBoundary>
+                <RedirectErrorBoundary router={{...}}>
+                  <Head>
+                  <__next_root_layout_boundary__>
+                    <SegmentViewNode type="layout" pagePath="layout.tsx">
+                      <SegmentTrieNode>
+                      <link>
+                      <script>
+                      <script>
+                      <script>
+                      <script>
+                      <script>
+                      <script>
+                      <script>
+                      <script>
+                      <script>
+                      <script>
+                      <script>
+                      <RootLayout>
+                        <html
+                          lang="en"
+-                         className="mdl-js"
+                        >
+                  ...
+
+[01:54:42.823] Server  LOG      ✓ Compiled in 311ms
+[01:54:43.533] Server  ERROR   D:\pizza_box\.next\dev\server\chunks\ssr\_08864426._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[01:54:43.537] Server  ERROR   D:\pizza_box\.next\dev\server\chunks\ssr\[turbopack]_runtime.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[01:54:43.630] Server  ERROR   D:\pizza_box\node_modules\next\dist\compiled\next-server\app-page-turbo.runtime.dev.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[01:54:43.634] Server  ERROR    ⨯ ReferenceError: SampleIntegration is not defined
+[01:54:45.434] Browser ERROR   uncaughtError: ReferenceError: SampleIntegration is not defined
+[01:56:35.271] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[01:56:35.272] Server  WARN     ⚠ Fast Refresh had to perform a full reload when ./components/sample.tsx changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+[01:56:35.273] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[01:56:35.274] Server  LOG      ✓ Compiled in 240ms
+[01:56:35.731] Server  ERROR   D:\pizza_box\.next\dev\server\chunks\ssr\_08864426._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[01:56:35.735] Server  ERROR   D:\pizza_box\.next\dev\server\chunks\ssr\[turbopack]_runtime.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[01:56:35.739] Server  ERROR   D:\pizza_box\node_modules\next\dist\compiled\next-server\app-page-turbo.runtime.dev.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[01:56:35.740] Server  ERROR    ⨯ ReferenceError: SampleIntegration is not defined
+[01:56:37.430] Browser ERROR   uncaughtError: ReferenceError: SampleIntegration is not defined
+[01:57:48.690] Server  LOG      ✓ Compiled in 320ms
+[01:58:45.575] Server  LOG      ✓ Compiled in 593ms
+[01:59:09.046] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[01:59:09.068] Server  WARN     ⚠ Fast Refresh had to perform a full reload when ./components/sample.tsx changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+[01:59:09.078] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[01:59:09.108] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[01:59:09.112] Server  WARN     ⚠ Fast Refresh had to perform a full reload when ./components/sample.tsx changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+[01:59:09.128] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[01:59:10.811] Server  ERROR   D:\pizza_box\.next\dev\server\chunks\ssr\_08864426._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[01:59:10.815] Server  ERROR   D:\pizza_box\.next\dev\server\chunks\ssr\[turbopack]_runtime.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[01:59:10.825] Server  ERROR   D:\pizza_box\node_modules\next\dist\compiled\next-server\app-page-turbo.runtime.dev.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[01:59:10.826] Server  ERROR    ⨯ ReferenceError: SampleIntegration is not defined
+[01:59:11.653] Browser ERROR   uncaughtError: ReferenceError: SampleIntegration is not defined
+[01:59:40.227] Server  LOG      ✓ Compiled in 415ms
+[01:59:40.238] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[01:59:40.239] Server  WARN     ⚠ Fast Refresh had to perform a full reload when ./components/sample.tsx changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+[01:59:40.250] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[01:59:40.917] Server  ERROR   D:\pizza_box\.next\dev\server\chunks\ssr\_08864426._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[01:59:40.922] Server  ERROR   D:\pizza_box\.next\dev\server\chunks\ssr\[turbopack]_runtime.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[01:59:40.926] Server  ERROR   D:\pizza_box\node_modules\next\dist\compiled\next-server\app-page-turbo.runtime.dev.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[01:59:40.928] Server  ERROR    ⨯ ReferenceError: SampleIntegration is not defined
+[01:59:43.436] Browser ERROR   uncaughtError: ReferenceError: SampleIntegration is not defined
+[02:02:25.421] Server  LOG      ✓ Compiled in 424ms
+[02:02:25.441] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[02:02:25.443] Server  WARN     ⚠ Fast Refresh had to perform a full reload when ./components/sample.tsx changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+[02:02:25.449] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[02:02:26.240] Server  ERROR   D:\pizza_box\.next\dev\server\chunks\ssr\_08864426._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[02:02:26.242] Server  ERROR   D:\pizza_box\.next\dev\server\chunks\ssr\[turbopack]_runtime.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[02:02:26.244] Server  ERROR   D:\pizza_box\node_modules\next\dist\compiled\next-server\app-page-turbo.runtime.dev.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[02:02:26.245] Server  ERROR    ⨯ ReferenceError: SampleIntegration is not defined
+[02:02:28.437] Browser ERROR   uncaughtError: ReferenceError: SampleIntegration is not defined
+[02:03:29.906] Server  LOG      ✓ Compiled in 691ms
+[02:03:31.385] Server  LOG      ✓ Compiled in 435ms
+[02:03:47.851] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[02:03:48.695] Server  ERROR   D:\pizza_box\.next\dev\server\chunks\ssr\_08864426._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[02:03:48.698] Server  ERROR   D:\pizza_box\.next\dev\server\chunks\ssr\[turbopack]_runtime.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[02:03:48.703] Server  ERROR   D:\pizza_box\node_modules\next\dist\compiled\next-server\app-page-turbo.runtime.dev.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[02:03:48.704] Server  ERROR    ⨯ ReferenceError: SampleIntegration is not defined
+[02:03:49.468] Browser ERROR   uncaughtError: ReferenceError: SampleIntegration is not defined
+[02:04:29.676] Server  LOG      ✓ Compiled in 686ms
+[02:04:29.727] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[02:04:29.728] Server  WARN     ⚠ Fast Refresh had to perform a full reload when ./components/sample.tsx changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+[02:04:29.729] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[02:04:29.804] Server  LOG      ✓ Compiled in 136ms
+[02:04:29.806] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[02:04:29.806] Server  WARN     ⚠ Fast Refresh had to perform a full reload when ./components/sample.tsx changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+[02:04:29.807] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[02:04:30.655] Server  ERROR   D:\pizza_box\.next\dev\server\chunks\ssr\_08864426._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[02:04:30.660] Server  ERROR   D:\pizza_box\.next\dev\server\chunks\ssr\[turbopack]_runtime.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[02:04:30.686] Server  ERROR   D:\pizza_box\node_modules\next\dist\compiled\next-server\app-page-turbo.runtime.dev.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[02:04:30.687] Server  ERROR    ⨯ ReferenceError: SampleIntegration is not defined
+[02:04:32.436] Browser ERROR   uncaughtError: ReferenceError: SampleIntegration is not defined
+[02:06:11.166] Server  ERROR   D:\pizza_box\node_modules\next\dist\compiled\next-server\app-page-turbo.runtime.dev.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[02:06:11.176] Server  ERROR    ⨯ Error: Element type is invalid: expected a string (for built-in components) or a class/function (for composite components) but got: object. You likely forgot to export your component from the file it's defined in, or you might have mixed up default and named imports.
+[02:06:11.905] Server  LOG      ✓ Compiled in 1074ms
+[02:06:12.033] Browser ERROR   uncaughtError: Error: Element type is invalid: expected a string (for built-in components) or a class/function (for composite components) but got: object. You likely forgot to export your component from the file it's defined in, or you might have mixed up default and named imports.
+
+Check the render method of `Home`.
+[02:06:39.698] Server  LOG      ✓ Compiled in 397ms
+[02:06:39.723] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[02:06:42.430] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+%s%s https://react.dev/link/hydration-mismatch 
+
+  ...
+    <HotReload globalError={[...]} webSocket={WebSocket} staticIndicatorState={{pathname:null, ...}}>
+      <AppDevOverlayErrorBoundary globalError={[...]}>
+        <ReplaySsrOnlyErrors>
+        <DevRootHTTPAccessFallbackBoundary>
+          <HTTPAccessFallbackBoundary notFound={<NotAllowedRootHTTPFallbackError>}>
+            <HTTPAccessFallbackErrorBoundary pathname="/" notFound={<NotAllowedRootHTTPFallbackError>} ...>
+              <RedirectBoundary>
+                <RedirectErrorBoundary router={{...}}>
+                  <Head>
+                  <__next_root_layout_boundary__>
+                    <SegmentViewNode type="layout" pagePath="layout.tsx">
+                      <SegmentTrieNode>
+                      <link>
+                      <script>
+                      <script>
+                      <script>
+                      <script>
+                      <script>
+                      <script>
+                      <script>
+                      <script>
+                      <script>
+                      <script>
+                      <script>
+                      <RootLayout>
+                        <html
+                          lang="en"
+-                         className="mdl-js"
+                        >
+                  ...
+
+[02:08:16.740] Browser ERROR   Error: {}
+[02:08:34.098] Browser LOG     BurgerBox fields structure: {
+  "burger": {
+    "type": "0xd03989964a0dc8ade3f3eb789b94a79a9f053455fb1b58c31b8a330b17be4667::burger::Burger",
+    "fields": {
+      "beef": 1,
+      "buns": 2,
+      "cheese": 3,
+      "lettuce": 4,
+      "pickles": 8,
+      "sauce": 6,
+      "tomato": 5
+    }
+  },
+  "id": {
+    "id": "0xaec8601b0fa07c448e1f4ee92ebaa1b0edfad5746bb88eb6a9b50f3ee5bdaf84"
+  }
+}
+[02:08:34.099] Browser LOG     [2;38;2;124;124;124m%s[0m BurgerBox fields structure: {
+  "burger": {
+    "type": "0xd03989964a0dc8ade3f3eb789b94a79a9f053455fb1b58c31b8a330b17be4667::burger::Burger",
+    "fields": {
+      "beef": 1,
+      "buns": 2,
+      "cheese": 3,
+      "lettuce": 4,
+      "pickles": 8,
+      "sauce": 6,
+      "tomato": 5
+    }
+  },
+  "id": {
+    "id": "0xaec8601b0fa07c448e1f4ee92ebaa1b0edfad5746bb88eb6a9b50f3ee5bdaf84"
+  }
+}
+[02:08:34.687] Browser LOG     BurgerBox fields structure: {
+  "burger": {
+    "type": "0xd03989964a0dc8ade3f3eb789b94a79a9f053455fb1b58c31b8a330b17be4667::burger::Burger",
+    "fields": {
+      "beef": 1,
+      "buns": 2,
+      "cheese": 3,
+      "lettuce": 4,
+      "pickles": 8,
+      "sauce": 6,
+      "tomato": 5
+    }
+  },
+  "id": {
+    "id": "0xaec8601b0fa07c448e1f4ee92ebaa1b0edfad5746bb88eb6a9b50f3ee5bdaf84"
+  }
+}
+[02:08:34.688] Browser LOG     [2;38;2;124;124;124m%s[0m BurgerBox fields structure: {
+  "burger": {
+    "type": "0xd03989964a0dc8ade3f3eb789b94a79a9f053455fb1b58c31b8a330b17be4667::burger::Burger",
+    "fields": {
+      "beef": 1,
+      "buns": 2,
+      "cheese": 3,
+      "lettuce": 4,
+      "pickles": 8,
+      "sauce": 6,
+      "tomato": 5
+    }
+  },
+  "id": {
+    "id": "0xaec8601b0fa07c448e1f4ee92ebaa1b0edfad5746bb88eb6a9b50f3ee5bdaf84"
+  }
+}
+[02:08:36.427] Browser LOG     BurgerBox fields structure: {
+  "burger": {
+    "type": "0xd03989964a0dc8ade3f3eb789b94a79a9f053455fb1b58c31b8a330b17be4667::burger::Burger",
+    "fields": {
+      "beef": 1,
+      "buns": 2,
+      "cheese": 3,
+      "lettuce": 4,
+      "pickles": 8,
+      "sauce": 6,
+      "tomato": 5
+    }
+  },
+  "id": {
+    "id": "0xaec8601b0fa07c448e1f4ee92ebaa1b0edfad5746bb88eb6a9b50f3ee5bdaf84"
+  }
+}
+[02:08:36.428] Browser LOG     [2;38;2;124;124;124m%s[0m BurgerBox fields structure: {
+  "burger": {
+    "type": "0xd03989964a0dc8ade3f3eb789b94a79a9f053455fb1b58c31b8a330b17be4667::burger::Burger",
+    "fields": {
+      "beef": 1,
+      "buns": 2,
+      "cheese": 3,
+      "lettuce": 4,
+      "pickles": 8,
+      "sauce": 6,
+      "tomato": 5
+    }
+  },
+  "id": {
+    "id": "0xaec8601b0fa07c448e1f4ee92ebaa1b0edfad5746bb88eb6a9b50f3ee5bdaf84"
+  }
+}
+[02:08:42.602] Browser LOG     BurgerBox fields structure: {
+  "burger": {
+    "type": "0xd03989964a0dc8ade3f3eb789b94a79a9f053455fb1b58c31b8a330b17be4667::burger::Burger",
+    "fields": {
+      "beef": 1,
+      "buns": 2,
+      "cheese": 3,
+      "lettuce": 4,
+      "pickles": 8,
+      "sauce": 6,
+      "tomato": 5
+    }
+  },
+  "id": {
+    "id": "0xaec8601b0fa07c448e1f4ee92ebaa1b0edfad5746bb88eb6a9b50f3ee5bdaf84"
+  }
+}
+[02:08:42.602] Browser LOG     [2;38;2;124;124;124m%s[0m BurgerBox fields structure: {
+  "burger": {
+    "type": "0xd03989964a0dc8ade3f3eb789b94a79a9f053455fb1b58c31b8a330b17be4667::burger::Burger",
+    "fields": {
+      "beef": 1,
+      "buns": 2,
+      "cheese": 3,
+      "lettuce": 4,
+      "pickles": 8,
+      "sauce": 6,
+      "tomato": 5
+    }
+  },
+  "id": {
+    "id": "0xaec8601b0fa07c448e1f4ee92ebaa1b0edfad5746bb88eb6a9b50f3ee5bdaf84"
+  }
+}
+[02:08:42.935] Browser LOG     BurgerBox fields structure: {
+  "burger": {
+    "type": "0xd03989964a0dc8ade3f3eb789b94a79a9f053455fb1b58c31b8a330b17be4667::burger::Burger",
+    "fields": {
+      "beef": 1,
+      "buns": 2,
+      "cheese": 3,
+      "lettuce": 4,
+      "pickles": 8,
+      "sauce": 6,
+      "tomato": 5
+    }
+  },
+  "id": {
+    "id": "0xaec8601b0fa07c448e1f4ee92ebaa1b0edfad5746bb88eb6a9b50f3ee5bdaf84"
+  }
+}
+[02:08:42.936] Browser LOG     [2;38;2;124;124;124m%s[0m BurgerBox fields structure: {
+  "burger": {
+    "type": "0xd03989964a0dc8ade3f3eb789b94a79a9f053455fb1b58c31b8a330b17be4667::burger::Burger",
+    "fields": {
+      "beef": 1,
+      "buns": 2,
+      "cheese": 3,
+      "lettuce": 4,
+      "pickles": 8,
+      "sauce": 6,
+      "tomato": 5
+    }
+  },
+  "id": {
+    "id": "0xaec8601b0fa07c448e1f4ee92ebaa1b0edfad5746bb88eb6a9b50f3ee5bdaf84"
+  }
+}
+[02:10:56.910] Browser LOG     BurgerBox fields structure: {
+  "burger": {
+    "type": "0xd03989964a0dc8ade3f3eb789b94a79a9f053455fb1b58c31b8a330b17be4667::burger::Burger",
+    "fields": {
+      "beef": 1,
+      "buns": 2,
+      "cheese": 3,
+      "lettuce": 4,
+      "pickles": 8,
+      "sauce": 6,
+      "tomato": 5
+    }
+  },
+  "id": {
+    "id": "0xaec8601b0fa07c448e1f4ee92ebaa1b0edfad5746bb88eb6a9b50f3ee5bdaf84"
+  }
+}
+[02:10:56.920] Browser LOG     [2;38;2;124;124;124m%s[0m BurgerBox fields structure: {
+  "burger": {
+    "type": "0xd03989964a0dc8ade3f3eb789b94a79a9f053455fb1b58c31b8a330b17be4667::burger::Burger",
+    "fields": {
+      "beef": 1,
+      "buns": 2,
+      "cheese": 3,
+      "lettuce": 4,
+      "pickles": 8,
+      "sauce": 6,
+      "tomato": 5
+    }
+  },
+  "id": {
+    "id": "0xaec8601b0fa07c448e1f4ee92ebaa1b0edfad5746bb88eb6a9b50f3ee5bdaf84"
+  }
+}
+[02:16:14.202] Server  LOG      ✓ Compiled in 876ms
+[02:17:02.800] Browser LOG     BurgerBox fields structure: {
+  "burger": {
+    "type": "0xd03989964a0dc8ade3f3eb789b94a79a9f053455fb1b58c31b8a330b17be4667::burger::Burger",
+    "fields": {
+      "beef": 1,
+      "buns": 2,
+      "cheese": 3,
+      "lettuce": 4,
+      "pickles": 8,
+      "sauce": 6,
+      "tomato": 5
+    }
+  },
+  "id": {
+    "id": "0xc2f5d7a9f853b0f2e334b37d57316b82bfd09c284722f04a6deb684fb035ecc0"
+  }
+}
+[02:17:02.802] Browser LOG     [2;38;2;124;124;124m%s[0m BurgerBox fields structure: {
+  "burger": {
+    "type": "0xd03989964a0dc8ade3f3eb789b94a79a9f053455fb1b58c31b8a330b17be4667::burger::Burger",
+    "fields": {
+      "beef": 1,
+      "buns": 2,
+      "cheese": 3,
+      "lettuce": 4,
+      "pickles": 8,
+      "sauce": 6,
+      "tomato": 5
+    }
+  },
+  "id": {
+    "id": "0xc2f5d7a9f853b0f2e334b37d57316b82bfd09c284722f04a6deb684fb035ecc0"
+  }
+}
+[02:17:02.802] Browser ERROR   Received NaN for the `%s` attribute. If this is expected, cast the value to a string. children
+[02:17:03.371] Browser LOG     BurgerBox fields structure: {
+  "burger": {
+    "type": "0xd03989964a0dc8ade3f3eb789b94a79a9f053455fb1b58c31b8a330b17be4667::burger::Burger",
+    "fields": {
+      "beef": 1,
+      "buns": 2,
+      "cheese": 3,
+      "lettuce": 4,
+      "pickles": 8,
+      "sauce": 6,
+      "tomato": 5
+    }
+  },
+  "id": {
+    "id": "0xc2f5d7a9f853b0f2e334b37d57316b82bfd09c284722f04a6deb684fb035ecc0"
+  }
+}
+[02:17:03.371] Browser LOG     [2;38;2;124;124;124m%s[0m BurgerBox fields structure: {
+  "burger": {
+    "type": "0xd03989964a0dc8ade3f3eb789b94a79a9f053455fb1b58c31b8a330b17be4667::burger::Burger",
+    "fields": {
+      "beef": 1,
+      "buns": 2,
+      "cheese": 3,
+      "lettuce": 4,
+      "pickles": 8,
+      "sauce": 6,
+      "tomato": 5
+    }
+  },
+  "id": {
+    "id": "0xc2f5d7a9f853b0f2e334b37d57316b82bfd09c284722f04a6deb684fb035ecc0"
+  }
+}
+[02:20:26.795] Server  LOG      ✓ Compiled in 1008ms
+[02:20:27.434] Browser LOG     BurgerBox fields structure: {
+  "burger": {
+    "type": "0xd03989964a0dc8ade3f3eb789b94a79a9f053455fb1b58c31b8a330b17be4667::burger::Burger",
+    "fields": {
+      "beef": 1,
+      "buns": 2,
+      "cheese": 3,
+      "lettuce": 4,
+      "pickles": 8,
+      "sauce": 6,
+      "tomato": 5
+    }
+  },
+  "id": {
+    "id": "0xc2f5d7a9f853b0f2e334b37d57316b82bfd09c284722f04a6deb684fb035ecc0"
+  }
+}
+[02:20:27.435] Browser LOG     [2;38;2;124;124;124m%s[0m BurgerBox fields structure: {
+  "burger": {
+    "type": "0xd03989964a0dc8ade3f3eb789b94a79a9f053455fb1b58c31b8a330b17be4667::burger::Burger",
+    "fields": {
+      "beef": 1,
+      "buns": 2,
+      "cheese": 3,
+      "lettuce": 4,
+      "pickles": 8,
+      "sauce": 6,
+      "tomato": 5
+    }
+  },
+  "id": {
+    "id": "0xc2f5d7a9f853b0f2e334b37d57316b82bfd09c284722f04a6deb684fb035ecc0"
+  }
+}
+[02:20:27.436] Browser LOG     BurgerBox fields structure: {
+  "burger": {
+    "type": "0xd03989964a0dc8ade3f3eb789b94a79a9f053455fb1b58c31b8a330b17be4667::burger::Burger",
+    "fields": {
+      "beef": 1,
+      "buns": 2,
+      "cheese": 3,
+      "lettuce": 4,
+      "pickles": 8,
+      "sauce": 6,
+      "tomato": 5
+    }
+  },
+  "id": {
+    "id": "0xc2f5d7a9f853b0f2e334b37d57316b82bfd09c284722f04a6deb684fb035ecc0"
+  }
+}
+[02:20:27.436] Browser LOG     [2;38;2;124;124;124m%s[0m BurgerBox fields structure: {
+  "burger": {
+    "type": "0xd03989964a0dc8ade3f3eb789b94a79a9f053455fb1b58c31b8a330b17be4667::burger::Burger",
+    "fields": {
+      "beef": 1,
+      "buns": 2,
+      "cheese": 3,
+      "lettuce": 4,
+      "pickles": 8,
+      "sauce": 6,
+      "tomato": 5
+    }
+  },
+  "id": {
+    "id": "0xc2f5d7a9f853b0f2e334b37d57316b82bfd09c284722f04a6deb684fb035ecc0"
+  }
+}
+[02:20:33.842] Browser LOG     BurgerBox fields structure: {
+  "burger": {
+    "type": "0xd03989964a0dc8ade3f3eb789b94a79a9f053455fb1b58c31b8a330b17be4667::burger::Burger",
+    "fields": {
+      "beef": 1,
+      "buns": 2,
+      "cheese": 3,
+      "lettuce": 4,
+      "pickles": 8,
+      "sauce": 6,
+      "tomato": 5
+    }
+  },
+  "id": {
+    "id": "0xc2f5d7a9f853b0f2e334b37d57316b82bfd09c284722f04a6deb684fb035ecc0"
+  }
+}
+[02:20:33.843] Browser LOG     [2;38;2;124;124;124m%s[0m BurgerBox fields structure: {
+  "burger": {
+    "type": "0xd03989964a0dc8ade3f3eb789b94a79a9f053455fb1b58c31b8a330b17be4667::burger::Burger",
+    "fields": {
+      "beef": 1,
+      "buns": 2,
+      "cheese": 3,
+      "lettuce": 4,
+      "pickles": 8,
+      "sauce": 6,
+      "tomato": 5
+    }
+  },
+  "id": {
+    "id": "0xc2f5d7a9f853b0f2e334b37d57316b82bfd09c284722f04a6deb684fb035ecc0"
+  }
+}
+[02:20:40.842] Browser LOG     BurgerBox fields structure: {
+  "burger": {
+    "type": "0xd03989964a0dc8ade3f3eb789b94a79a9f053455fb1b58c31b8a330b17be4667::burger::Burger",
+    "fields": {
+      "beef": 1,
+      "buns": 2,
+      "cheese": 3,
+      "lettuce": 4,
+      "pickles": 8,
+      "sauce": 6,
+      "tomato": 5
+    }
+  },
+  "id": {
+    "id": "0xc2f5d7a9f853b0f2e334b37d57316b82bfd09c284722f04a6deb684fb035ecc0"
+  }
+}
+[02:20:40.842] Browser LOG     [2;38;2;124;124;124m%s[0m BurgerBox fields structure: {
+  "burger": {
+    "type": "0xd03989964a0dc8ade3f3eb789b94a79a9f053455fb1b58c31b8a330b17be4667::burger::Burger",
+    "fields": {
+      "beef": 1,
+      "buns": 2,
+      "cheese": 3,
+      "lettuce": 4,
+      "pickles": 8,
+      "sauce": 6,
+      "tomato": 5
+    }
+  },
+  "id": {
+    "id": "0xc2f5d7a9f853b0f2e334b37d57316b82bfd09c284722f04a6deb684fb035ecc0"
+  }
+}
+[02:20:41.148] Browser LOG     BurgerBox fields structure: {
+  "burger": {
+    "type": "0xd03989964a0dc8ade3f3eb789b94a79a9f053455fb1b58c31b8a330b17be4667::burger::Burger",
+    "fields": {
+      "beef": 1,
+      "buns": 2,
+      "cheese": 3,
+      "lettuce": 4,
+      "pickles": 8,
+      "sauce": 6,
+      "tomato": 5
+    }
+  },
+  "id": {
+    "id": "0xc2f5d7a9f853b0f2e334b37d57316b82bfd09c284722f04a6deb684fb035ecc0"
+  }
+}
+[02:20:41.148] Browser LOG     [2;38;2;124;124;124m%s[0m BurgerBox fields structure: {
+  "burger": {
+    "type": "0xd03989964a0dc8ade3f3eb789b94a79a9f053455fb1b58c31b8a330b17be4667::burger::Burger",
+    "fields": {
+      "beef": 1,
+      "buns": 2,
+      "cheese": 3,
+      "lettuce": 4,
+      "pickles": 8,
+      "sauce": 6,
+      "tomato": 5
+    }
+  },
+  "id": {
+    "id": "0xc2f5d7a9f853b0f2e334b37d57316b82bfd09c284722f04a6deb684fb035ecc0"
+  }
+}
+[02:22:00.432] Browser LOG     BurgerBox fields structure: {
+  "burger": {
+    "type": "0xd03989964a0dc8ade3f3eb789b94a79a9f053455fb1b58c31b8a330b17be4667::burger::Burger",
+    "fields": {
+      "beef": 1,
+      "buns": 2,
+      "cheese": 3,
+      "lettuce": 4,
+      "pickles": 8,
+      "sauce": 6,
+      "tomato": 5
+    }
+  },
+  "id": {
+    "id": "0xc2f5d7a9f853b0f2e334b37d57316b82bfd09c284722f04a6deb684fb035ecc0"
+  }
+}
+[02:22:00.442] Browser LOG     [2;38;2;124;124;124m%s[0m BurgerBox fields structure: {
+  "burger": {
+    "type": "0xd03989964a0dc8ade3f3eb789b94a79a9f053455fb1b58c31b8a330b17be4667::burger::Burger",
+    "fields": {
+      "beef": 1,
+      "buns": 2,
+      "cheese": 3,
+      "lettuce": 4,
+      "pickles": 8,
+      "sauce": 6,
+      "tomato": 5
+    }
+  },
+  "id": {
+    "id": "0xc2f5d7a9f853b0f2e334b37d57316b82bfd09c284722f04a6deb684fb035ecc0"
+  }
+}
